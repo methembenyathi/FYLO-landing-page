@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+     margin: 40px;
+}
+
+.menu {
+    float: right;
+    display: flex;
+
+}
+
+.menu li{
+    list-style: none;
+    
+    
+}
+.menu li a{
+    text-decoration: none;
+    padding: 20px;
+}
+.section1{
+    display: flex;
+    margin: 50px;
+}
+.section1 img{
+    max-width: 40%;
+    margin-left: 210px;
+
+}
+.text{
+    max-width: 60%;
+}
+.text p{
+    font-size: 15px;
+    font-weight: 400;
+    margin:15px 0px;
+    
+}
+.promptarea{
+    display: flex;
+}
+.prompt input{
+    height: 30px;
+    width: 260px;
+}
+.promptbtn button{
+    padding:9px ;
+    background-color:hsl(224, 93%, 58%);
+    padding-inline: 40px;
+    margin-left: 10px;
+    border-style: none;
+}
+.section2 p{
+    font-weight: 400;
+}
+.link{
+    display: flex;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.link a{
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    padding-right: 5px;
+}
+.midsection{
+    display: flex;
+    padding: 50px;
+    padding-top: 100px;
+    background: url(./images/bg-curve-desktop.svg) no-repeat;
+    background-size: 100% 100%;
+}
+.image2 img{
+    max-width: 60%;
+}
+.testimonial{
+    background-color: white;
+    max-width: 35%;
+    padding: 25px;
+}
+
+.testimonialend{
+    display: flex;
+    margin-top: 10px;
+}
+.testimonialend img{
+    max-width: 40px;
+    border-radius: 20px;
+}
+.testimonialend .text{
+    padding-left: 10px;
+
+}
+.section3{
+    background-color:  hsl(238, 22%, 44%) ;
+    display: flex;
+    color: white;
+    padding: 60px;
+}
+.section3 .textarea{
+    max-width: 40%;
+}
+.section3 .inputarea{
+    max-width: 50%;
+    padding-left: 40%;
+    padding-top: 30px;
+}
+.section3 .inputarea input{
+    height: 30px;
+    width: 300px;
+}
+.section3 .inputarea button{
+    background-color: hsl(224, 93%, 58%);
+    padding: 8.7px;
+    border-style: none;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+.footergrid{
+    background-color:  hsl(243, 87%, 12%);
+    color: white;
+    padding: 30px;
+}
